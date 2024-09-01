@@ -1,2 +1,2 @@
 # zen-macchiato
-Custom theme inspired by Catppuccin Macchiato for the Zen browser (not affiliated with Catppuccin
+Custom theme for the Zen browser using the Catppuccin Macchiato palette (not affiliated with the Catppuccin organization)
