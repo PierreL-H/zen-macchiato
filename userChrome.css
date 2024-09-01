@@ -1,0 +1,79 @@
+@-moz-document url-prefix("chrome:") {
+  :root {
+    --macchiato-base: #24273a;
+    --macchiato-mantle: #1e2030;
+    --macchiato-crust: #181926;
+    --macchiato-surface0: #494d64;
+    --macchiato-surface1: #494d64;
+    --macchiato-surface2: #5b6078;
+    --macchiato-overlay0: #6e738d;
+    --macchiato-overlay2: #939ab7;
+    --macchiato-text: #cad3f5;
+    --macchiato-subtext0: #a5adcb;
+    --macchiato-subtext1: #b8c0e0;
+    --macchiato-subtext0: #a5adcb;
+    --macchiato-pink: #f5bde6;
+    --macchiato-lavender: #b7bdf8;
+    
+    --zen-colors-primary: #24273a !important;
+    --zen-colors-secondary: #1e2030 !important;
+    --zen-colors-tertiary: #181926 !important;
+    --zen-colors-border: var(--macchiato-surface2) !important;
+    --zen-colors-input-bg: #181926 !important;
+    
+    /*pop up content box*/
+    --background-color-box: var(--macchiato-mantle) !important;
+    --in-content-box-background: var(--macchiato-mantle) !important;
+    --in-content-box-border-color: var(--macchiato-surface2) !important;
+    --in-content-page-color: var(--macchiato-text) !important;
+    
+    /*pop up content box items*/
+    --in-content-text-color: var(--macchiato-text) !important;
+    --in-content-primary-button-background: var(--macchiato-surface0) !important;
+    --in-content-primary-button-text-color: var(--macchiato-text) !important;
+    
+    --sidebar-background-color: var(--macchiato-mantle) !important;
+    --toolbar-bgcolor: var(--macchiato-mantle) !important;
+    --zen-main-browser-background: var(--macchiato-mantle) !important;
+    --zen-themed-toolbar-bg: var(--macchiato-mantle) !important;
+    --lwt-sidebar-background-color: var(--macchiato-base) !important;
+    --toolbar-field-focus-background-color: var(--macchiato-base) !important;
+    
+    --background-color-box: white !important;
+    
+    --urlbar-box-text-color: var(--macchiato-text) !important;
+    --input-color: var(--macchiato-text) !important;
+    --toolbar-color: var(--macchiato-text) !important;
+    --toolbar-field-color: var(--macchiato-text) !important;
+    --toolbar-field-focus-color: var(--macchiato-text) !important;
+    --newtab-text-primary-color: var(--macchiato-text) !important;
+    --lwt-text-color: var(--macchiato-text) !important;
+    --tab-selected-textcolor: var(--macchiato-text) !important;
+    --arrowpanel-color: var(--macchiato-text) !important;
+    --toolbarbutton-icon-fill: var(--macchiato-text) !important;
+    --tab-icon-overlay-fill: var(--macchiato-text) !important;
+    --sidebar-text-color: var(--macchiato-text) !important;
+    --lwt-sidebar-text-color: var(--macchiato-text) !important;
+    
+    --zen-primary-color: var(--macchiato-lavender) !important
+  }
+  
+  menupopup,
+  panel {
+    --panel-background: var(--macchiato-crust) !important;
+    --panel-color: var(--macchiato-text) !important;
+  }
+  
+  #urlbar {
+    border: 1px solid var(--macchiato-surface2) !important;
+  }
+  
+  #urlbar[open] > #urlbar-background {
+    border-color: var(--macchiato-overlay0) !important;
+  }
+/* Hide bookmark and history buttons in tab panel 
+  #zen-bookmark-button, #zen-history-button {
+    display: none !important;
+  } */
+}
+    
